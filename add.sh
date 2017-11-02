@@ -16,7 +16,7 @@ then
 	do
 		echo $(date "+%d/%m/%Y @ %I:%M%p") >> gameboyAdvance.txt
 		read -p "Game: " GAME
-		echo "$GAME" >> gameboyAdvance.txt
+		echo "+ $GAME" >> gameboyAdvance.txt
 	done
 		echo "DONE! Run update.sh to update list.."
 
@@ -26,7 +26,7 @@ then
 	do
 		echo $(date "+%d/%m/%Y @ %I:%M%p") >> gameboyColor.txt
 		read -p "Game: " GAME
-		echo "$GAME" >> gameboyColor.txt
+		echo "+ $GAME" >> gameboyColor.txt
 	done
 		echo "DONE! Run update.sh to update list.."
 
@@ -36,7 +36,7 @@ then
 	do
 		echo $(date "+%d/%m/%Y @ %I:%M%p") >> xBox.txt
 		read -p "Game: " GAME
-		echo "$GAME" >> xBox.txt
+		echo "+ $GAME" >> xBox.txt
 	done
 		echo "DONE! Run update.sh to update list.."
 
@@ -46,7 +46,7 @@ then
 	do
 		echo $(date "+%d/%m/%Y @ %I:%M%p") >> playStation.txt
 		read -p "Game: " GAME
-		echo "$GAME" >> playStation.txt
+		echo "+ $GAME" >> playStation.txt
 	done
 		echo "DONE! Run update.sh to update list.."
 
