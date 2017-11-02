@@ -1,6 +1,6 @@
 function gameboyAdvance() {
 
-	window.open('https://raw.githubusercontent.com/alectramell/gchangerz/master/gameboyAdvance.md','Gameboy Advance','nonresizable,height=550,width=600');
+	window.open('https://raw.githubusercontent.com/alectramell/gchangerz/master/gameboyAdvance.txt','Gameboy Advance','nonresizable,height=550,width=600');
 	return false;
 }
 
